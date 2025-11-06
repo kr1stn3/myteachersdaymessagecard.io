@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Teachers' Day Card</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="stage">
+    <div class="card-3d" id="card3d" aria-label="3D teachers day card">
+
+      <!-- FRONT PANEL -->
+      <div class="panel front" id="frontPanel">
+        <div>
+          <div class="ribbon">Teachers' Day</div>
+          <div class="title">A note of gratitude</div>
+          <div class="greeting" id="greeting">Happy Teachers' Day, Sir Randy Bello!!</div>
+          <div class="message" id="msg">Thank you for turning small sparks into bright ideas and for guiding us with patience and care.</div>
+          <div class="sender" id="sender">— From: Kristine Ariola</div>
+        </div>
+        <div class="front-footer">
+          <div class="small">Tap 'Open' to reveal a special message</div>
+          <div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+        </div>
+      </div>
+
+      <!-- BACK PANEL (hidden until opened) -->
+      <div class="panel back" id="backPanel">
+        <div style="margin-bottom:12px;">
+          <div class="surprise-title">A little surprise ✨</div>
+          <div class="small" style="margin-top:6px;">Thank you for teaching us how to set goals and achieve them. Wishing you continued success and fulfillment. You make learning feel like home. We appreciate you.</div>
+        </div>
+        <div style="margin-top:12px; display:flex; gap:10px; align-items:center;">
+          <button class="action" id="celebrateBtn">🎉 Celebrate</button>
+          <button class="ghost" id="closeBtn">Close</button>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Controls -->
+      <div class="controls-actions">
+        <button class="action" id="updateBtn">Update Card</button>
+        <button class="ghost" id="openBtn">Open Card</button>
+        <button class="ghost" id="downloadBtn">Download PNG</button>
+      </div>
+
+      <div style="margin-top:10px; display:flex; gap:8px; align-items:center;">
+        <label class="small">Style</label>
+        <select id="preset" style="width:160px;">
+          <option value="warm">Warm Gradient</option>
+          <option value="cool">Cool Violet</option>
+          <option value="mint">Mint Breeze</option>
+        </select>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
