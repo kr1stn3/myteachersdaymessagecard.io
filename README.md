@@ -1,4 +1,4 @@
-*review* link: https://github.com/kr1stn3/myteachersdaymessagecard.io.git/
+**review** link: https://github.com/kr1stn3/myteachersdaymessagecard.io.git/
 # 🎓 3D Teachers' Day Card Website
 
 A unique and interactive **3D Teachers’ Day Card** built using **HTML**, **CSS**, and **JavaScript**.  
